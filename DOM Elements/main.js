@@ -33,4 +33,3 @@ const x = document.querySelectorAll(".query");
     queue.innerHTML = 'I am accessing by query selector<br>';
 });
 // querySelectorAll method is different we can access elements by all the selectors in css
-

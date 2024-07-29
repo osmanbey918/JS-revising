@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        div{
+            margin: 20px 10px 0px 10px;
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body onload="onload()">
+    
+    <div id="div1" onclick="div1()">onClick Event </div>
+    <div id="div2" onmouseover="div2()">onMouseOver Event </div>
+    <div id="div3" onmouseout="div3()">onMouseOut Event </div>
+    <div id="div4" onmousedown="div4()">onmousedown Event </div>
+    <div id="div5" onmouseup="div5()">onmouseup Event </div>
+    <input type="text" onfocus="div6()" id="div6">
+    <input type="text" onblur="div7()" id="div7">
+    <div id="div8" ondblclick="div8()">ondoubleclick Event </div>
+    <div id="div9" onkeydown="div9()">ondoubleclick Event </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
