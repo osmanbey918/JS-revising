@@ -97,3 +97,36 @@ console.log(myMonths);
 
 // Array spread(...arr1) operator
 console.log([...nums,...fruits]);
+
+(function () {
+    let x = "Hello!!";  // I will invoke myself
+    console.log(x);
+  })();
+
+  const person = {
+    fullName: function() {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+  
+  const person1 = {
+    firstName: "Mary",
+    lastName: "Doe"
+  }
+  
+  // This will return "Mary Doe":
+  console.log(person.fullName.call(person1));
+  console.log(person.fullName.bind(person1));
+
+  const hasmap = new Map();
+  for (let idx = 0; idx < nums.length; idx++) {
+      // Check if the difference betweend duplicates is less than k
+      if (idx - hasmap.get(nums[idx]) <= k) {
+          return true;
+      }
+      hasmap.set(nums[idx], idx);
+  }
+  return false;
+};
+  
+  
