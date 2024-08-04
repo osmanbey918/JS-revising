@@ -127,6 +127,9 @@ console.log([...nums,...fruits]);
       hasmap.set(nums[idx], idx);
   }
   return false;
-};
+;
   
+  let array = [1,2,5,55,44,33,55]
+  let [firstnum,lastnum] = array
+  console.log(firstnum,lastnum);
   
