@@ -10,3 +10,17 @@ for (let x of cars) {
   text += x;
 }
 console.log(text);
+
+var satisfiesConditions = function (grid) {
+  let i = 0;
+  let g = grid
+  for (let j = 1; j < g[0].length; j++) {
+      if (
+          g[i][j - 1] == g[i][j]
+      ) return false
+  }
+
+  let s = new Set(g.map(e => e.join('')))
+  if (s.size > 1) return false
+  return true
+};

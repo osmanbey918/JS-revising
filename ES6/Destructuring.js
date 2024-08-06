@@ -1,5 +1,5 @@
 // // destructuring is a process of copying the specific elements of arrays or strings or object
-
+// Destructurin means un packingthe elements 
 // // destructuring array
 // let friends = ['usman', 'ahmed', 'ali', 'khan', 'imran']
 // let [bestfriend1, bestfriend2] = friends
@@ -38,3 +38,4 @@ const person = {
 // Destructuring
 let { firstName, lastName, country = 'Pakistan' } = person;
 console.log(firstName, lastName, country);
+/// in object order does not matter 

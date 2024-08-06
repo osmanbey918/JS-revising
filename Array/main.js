@@ -157,4 +157,5 @@ for (let i = 0; i < array.length; i++) {
   }
   ar.push(array[i])
 }
+return ae[k]
 console.log(ar);
