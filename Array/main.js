@@ -40,11 +40,11 @@
 // // let pos = nums.findLastIndex(x => x > 40);
 // // console.log(pos);
 
-// // Array iteration
-// // Array.forEach()
-// // let res = ''
-// // let forEacharr = nums.forEach((item) => {if(item > 18) res += item + "  "})
-// // console.log(res);
+// Array iteration
+// Array.forEach()
+// let res = ''
+// let forEacharr = nums.forEach((item) => {if(item > 18) res += item + "  "})
+// console.log(res);
 
 // // Array.map()
 // // let maparr = nums.map(value => value > 18)
