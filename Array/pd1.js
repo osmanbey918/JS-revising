@@ -25,7 +25,7 @@ console.log(resArray);
 
 
 
-// Remove duplicates
+// Remove duplicates from sorted array  
 // const duplicateArray = [1,1,2,3,4,4,5,6,7,8,44,55,55];
 const duplicateArray = [0,0,1];
 const ry = []
