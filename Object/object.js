@@ -1,19 +1,19 @@
-// // var isLongPressedName = function (name, typed) {
-// //     let ob = {}
-// //     let n = name.length > typed.length ? name.length : typed.length
-// //     for (let i = 0; i < name.length; i++) {
-// //         let char = name[i];
-// //         if (ob[char]) {
-// //             ob[char] += 1;
-// //         } else {
-// //             ob[char] = 1;
-// //         }
-// //     }
-// //     console.log(n)
-// //     return false
+var isLongPressedName = function (name, typed) {
+    let ob = {}
+    let n = name.length > typed.length ? name.length : typed.length
+    for (let i = 0; i < name.length; i++) {
+        let char = name[i];
+        if (ob[char]) {
+            ob[char] += 1;
+        } else {
+            ob[char] = 1;
+        }
+    }
+    console.log(n)
+    return false
 
-// // };
-// // // isLongPressedName('aleeex', 'alex')
+};
+console.log(isLongPressedName('aleeex', 'alex'))
 
 
 // // let str = 'aaaayttuopouiyy'
@@ -67,17 +67,17 @@
 
 
 
-var f = function (target, nums) {
-    nums.sort((a, b) => b - a)
-    let nn = 0
-    let c = 0
-    for (let i = 0; i < nums.length; i++) {
-        nn += nums[i]
-        c++
-        if(nn >= target){
-            return c
-        }
-    }
-    return 0
-}
-console.log(f(213, [12,28,83,4,25,26,25,2,25,25,25,12]));
+// var f = function (target, nums) {
+//     nums.sort((a, b) => b - a)
+//     let nn = 0
+//     let c = 0
+//     for (let i = 0; i < nums.length; i++) {
+//         nn += nums[i]
+//         c++
+//         if(nn >= target){
+//             return c
+//         }
+//     }
+//     return 0
+// }
+// console.log(f(213, [12,28,83,4,25,26,25,2,25,25,25,12]));
