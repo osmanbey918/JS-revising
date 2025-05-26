@@ -45,12 +45,12 @@ console.log('Fruit count:', count); // Output: Fruit count: { apple: 3, banana: 
 
 // Problem: Given an array of objects representing people with their ages, find the average age using reduce.
 
-const people = [
-    { name: 'Alice', age: 25 },
-    { name: 'Bob', age: 30 },
-    { name: 'Charlie', age: 35 }
-];
+// const people = [
+//     { name: 'Alice', age: 25 },
+//     { name: 'Bob', age: 30 },
+//     { name: 'Charlie', age: 35 }
+// ];
 
-const totalAge = people.reduce((acc, person) => acc + person.age, 0);
-const averageAge = totalAge / people.length;
-console.log('Average age:', averageAge); // Output: Average age: 30
+// const totalAge = people.reduce((acc, person) => acc + person.age, 0);
+// const averageAge = totalAge / people.length;
+// console.log('Average age:', averageAge); // Output: Average age: 30
