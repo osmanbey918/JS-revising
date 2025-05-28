@@ -45,6 +45,7 @@ console.log('Original:', unsorted); // Output: [3, 1, 4, 2]
 const spliced = arr.toSpliced(2, 2, 99, 100);
 console.log('toSpliced:', spliced); // Output: [1, 2, 99, 100, 5, 6]
 console.log('Original:', arr); // Output: [1, 2, 3, 4, 5, 6]
+console.log('Original:', arr); // Output: [1, 2, 3, 4, 5, 6]
 
 /*
 6. Array.prototype.with()
