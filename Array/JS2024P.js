@@ -8,3 +8,15 @@ console.log("reversed array", reversed);
 
 const sorted = arr.toSorted()
 console.log("sorted arra" ,sorted);
+
+
+const sorted = arr.toSorted()
+console.log("sorted arra" ,sorted);
+
+
+const sorted = arr.toSorted()
+console.log("sorted arra" ,sorted);
+
+
+const sorted = arr.toSorted()
+console.log("sorted arra" ,sorted);
